@@ -15,6 +15,10 @@ public class YahtzeePlayer extends Player{
         scoreCard = new ScoreCard();
     }
 
+    /**
+     * display this player's
+     * score card
+     */
     public void showScoreCard(){
         System.out.printf("Upper Section for %s%n", this.getName());
         this.scoreCard.showUpperSection();

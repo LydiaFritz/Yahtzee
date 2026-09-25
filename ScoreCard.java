@@ -14,6 +14,10 @@ public class ScoreCard {
         initializeCards();
     }
 
+    /**
+     * displays upper section of
+     * score card
+     */
     public void showUpperSection() {
         for (int i = 0; i < upperSection.length; i++) {
             System.out.printf("Total of %-14s %-4d%n",
@@ -21,6 +25,10 @@ public class ScoreCard {
         }
     }
 
+    /**
+     * displays lower section of 
+     * score card
+     */
     public void showLowerSection() {
         System.out.printf("%-20s (tot all dice): %-15d%n",
                 Lower.values()[0], lowerSection[0]);
